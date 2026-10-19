@@ -1,6 +1,8 @@
 # AWS SageMaker MLOps Pipeline: End-to-End Production Guide
 # This document contains the complete, sequential set of Python code cells that successfully built, trained, registered, deployed, tested, and cleaned up the XGBoost Bank Marketing Conversion Prediction Pipeline on AWS SageMaker.
 
+!pip install -q xgboost pandas scikit-learn sagemaker boto3
+
 
 # Cell 1: Imports, Environment Setup, and S3 Bucket Initialization
 import boto3
